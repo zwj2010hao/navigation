@@ -1,0 +1,94 @@
+.banner{
+    background: url("../img/banner.jpg") no-repeat bottom center fixed;
+    background-size: cover;
+    width:100%;
+    height:300px;
+}
+.content{
+    padding:50px 30px 0 250px;
+}
+.content .module{
+    clear:both;
+}
+.content .module-name{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.content .module-item{
+    float: left;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+.content .module-item a{
+    font-size: 16px;
+    color:#585858;
+}
+.content .module-item a:hover{
+    position: relative;
+    top:-5px;
+}
+.content .module-item a:after{
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    top:-7px;
+    right:0;
+    font-weight: bolder;
+}
+.content .module-item .new:after{
+    content: '新';
+    color: red;
+}
+.content .module-item .recommend:after{
+    content: '荐';
+    color: #ff6f00;
+}
+.content .module-item .deprecated:after{
+    content: '弃';
+    color: #337ab7;
+}
+.content .module-item .know:after{
+    content: '了解';
+    color: #31708f;
+}
+.sidebar{
+    width:230px;
+    min-height: 200px;
+    background: url("../img/banner.jpg") no-repeat;
+    background-size: auto 100%;
+    position: fixed;
+    left:-2px;
+    /*top:299px;*/
+    top:100px;
+    border-radius: 0 10px 10px 0;
+    padding: 30px 0;
+}
+.sidebar ul{
+    padding-left: 0;
+}
+.sidebar li{
+    list-style: none;
+    text-align: center;
+}
+.sidebar li a{
+    font-size: 15px;
+    line-height:2;
+    color: #fff;
+}
+.return-top{
+    position: fixed;
+    right: -5px;
+    bottom:30px;
+    border: 1px solid #999;
+    width:80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.return-top:hover{
+    color: #fff;
+    background-color: #999;
+}

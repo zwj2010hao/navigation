@@ -1,0 +1,25 @@
+{
+  "name": "navigation",
+  "version": "1.0.0",
+  "description": "just for convenience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwj2010hao/navigation.git"
+  },
+  "author": "gavin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwj2010hao/navigation/issues"
+  },
+  "homepage": "https://github.com/zwj2010hao/navigation#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.15.0",
+    "gulp": "^3.9.1",
+    "jquery": "^1.11.1"
+  }
+}
